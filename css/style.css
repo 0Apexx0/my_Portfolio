@@ -231,7 +231,7 @@ a{
   height: 200px;
   width: 200px;
   background-color:aliceblue;
-  background-image: url('../image/vg.jpg');
+  background-image: url('../images/vg.jpg');
   background-size: contain;
   border-radius: 50% ;
   animation: pulse 2s linear alternate infinite;
@@ -447,6 +447,7 @@ h2 .blink{
     width: 100%;
     /* background-color: bisque; */
     position: fixed;
+    color: white;
     top: 0;
     opacity: 1;
     display: flex;
