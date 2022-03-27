@@ -32,7 +32,7 @@ a{
 .header-container{
         height: 100vh ; 
         opacity: 0.8;
-        background-image: url(/images/dp3.jpg);
+        background-image: url("../images/dp3.jpg");
         background-attachment: fixed;
         width: 100%;
         background-size: cover;
@@ -226,7 +226,7 @@ button:hover {
   box-sizing: border-box;
   width: 300px;
   height: 300px;
-  background-image: url("/images/background.png");
+  background-image: url("../images/background.png");
   background-color: #151515;
   background-position: center;
   background-size: cover;
@@ -559,7 +559,7 @@ certificate
   box-sizing: border-box;
   width: 400px;
   height: 300px;
-  background-image: url("/images/certificate.png");
+  background-image: url("../images/certificate.png");
   background-color: #151515;
   background-position: center;
   background-size: contain;
@@ -640,7 +640,7 @@ certificate
 }
 
 .certificate-card-box:nth-child(even) {
-  background-image: url('/images/certificate.png');
+  background-image: url("../images/certificate.png");
 }
 .certificate-card-box:nth-child(even):hover > .certificate-card-text {
   top: 0;
